@@ -1,0 +1,269 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #eaeaea;
+    color: black;
+}
+
+
+.fa, .far, .fas {
+    font-size: 3rem;
+}
+
+/*Navbar*/
+
+
+.navbar {
+
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    /* background-color: transparent; */
+    background-color: #a9bdd4;
+
+}
+
+.navbar .navbar-toggler {
+    border: 2px solid black;
+    background-color: yellow;
+    
+}
+.font-black {
+    color: black !important;
+}
+.font-green {
+    color: black;
+    font-size: 2rem;
+    
+}
+
+.navbar .navbar-brand{
+    color: #838080;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: bold;
+    padding-left: 4.5%;
+    font-size: 1.5rem;
+}
+.navbar .navbar-brand:hover{
+    color:darkgrey;
+}
+
+.navbar .navbar-collapse {
+    text-align: left;
+
+}
+
+#navbarNav > ul > li > a{
+    color: #838080; 
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+
+
+/*Landing page*/
+
+.landing-page { 
+    height: 85vh;
+
+    background: url("../images/10.jpg") no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+
+.quote-landing {
+    color: rgba(12, 14, 17, 0.74);
+    font-weight: bold;
+    font-size: 4rem;
+}
+.quote-mark{  quotes: "“" "”" "‘" "’";
+    }
+    .quote-mark:before {
+        content: open-quote;
+    }
+    .quote-mark:after {
+        content: close-quote;
+    }
+    
+
+
+@media only screen and (max-width: 320px) {
+  p.quote-landing {
+    font-size: 1.8rem;
+  }
+}
+@media only screen and (min-width:321px) and (max-width: 767px) {
+  p.quote-landing {
+    font-size: 2.1rem;
+  }
+}
+
+
+/*About us*/
+
+.container-about-us  {
+    
+    padding-top:5%;
+    padding-bottom: 5%;
+    font-size: 1.4rem;
+    line-height: 1.3;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .container-about-us {
+    font-size: 1rem;
+  }
+}
+
+
+/*The Join now*/
+
+.container-join-now{
+    padding-top: 4%;
+    padding-bottom: 7%;
+    
+}
+.center-form{  
+    margin:0 auto;
+    width: 70%;
+}
+
+@media only screen and (max-width: 767px) {
+  .center-form {
+    margin:0 auto;
+    width: 100%;
+  }
+}
+
+.btn-send {
+    color: #838080;
+    border-color:#191a1f ;
+    background-color: #eaeaea;
+    border-radius: 8px;
+   
+}
+.btn-send:hover{
+    background-color:#191a1f;
+    color:#eaeaea;
+}
+
+
+/*Classes*/
+
+.classes-container{
+    /* background-color: #191a1f; */
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+img {
+    height: auto;
+    width: 100%;
+}
+
+
+@media only screen and (min-width:768px) and (max-width: 1023px){
+    .paragraph-height-mobile1{
+        min-height: 148px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width: 1023px){
+    .paragraph-height-mobile2{
+        min-height: 208px;
+    }
+}
+
+@media only screen and (min-width:1024px){
+    .paragraph-height-lg-screen1{
+        min-height: 120px;
+    }
+}
+
+@media only screen and (min-width:1024px){
+    .paragraph-height-lg-screen2{
+        min-height: 148px;
+    }
+}
+.btn-download {
+    color: #838080;
+    border-color:#eaeaea;
+    background-color: transparent;
+    border-radius: 8px;
+    
+}
+
+.btn-download:hover{
+    background-color: #eaeaea;
+}
+
+
+
+/*footer*/
+
+
+
+.fab {
+    color: #838080;
+    font-size: 2.5rem;
+}
+
+.fab:hover{
+    color:darkgrey;
+}
+
+.join{
+		border: 1px #191a1f solid;
+		padding-left: 15px;
+		padding-right: 15px;
+		border-radius: 5px;
+		color: #838080;
+		text-decoration: none;
+		font-size: 2rem;
+	}
+
+a.join:hover{
+    background: #191a1f;
+    text-decoration: none;
+    color:#eaeaea;
+}
+
+@media only screen and (max-width: 922px){
+    
+    .fab, .join {
+    font-size: 2rem;    
+    }
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 5px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #838080; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: darkgrey; 
+}
+.divimg {
+    width: 100%;
+    height: 80vh;
+}
