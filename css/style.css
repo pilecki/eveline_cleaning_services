@@ -1,5 +1,5 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     background-color: #ffffff;
     color: black;
 }
@@ -27,6 +27,21 @@ body {
 .font-color-blue{
     color: #28b6f6 !important;
 }
+
+@media only screen and (max-width: 767px) {
+    .w-65 {
+    width: 65%;
+}
+
+}
+@media (max-width: 767px) {
+.center-nav-items {
+    margin-left: auto!important;
+    margin-right: auto!important;
+}
+}
+
+
 /* Logo and contact */
 
 @media only screen and (min-width: 768px){
@@ -67,13 +82,6 @@ body {
     
 }
 
-.navbar .navbar-brand{
-    color: #838080;
-    font-family: 'Noto Sans KR', sans-serif;
-    font-weight: bold;
-    padding-left: 4.5%;
-    font-size: 1.5rem;
-}
 .navbar .navbar-brand:hover{
     color:darkgrey;
 }
@@ -84,9 +92,10 @@ body {
 }
 
 #navbarNav > ul > li > a{
-    color: #838080; 
+    color: #404777; 
     font-weight: bold;
     font-size: 1.5rem;
+    /* font-family: 'Montserrat', sans-serif; */
 }
 
 
