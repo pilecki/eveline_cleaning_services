@@ -5,16 +5,28 @@ body {
 }
 
 .bg-color1 {
-    background-color: #0e5ba7 !important;
+    background-color:#17a2e8a6 !important;
 }
 
 .bg-color2 {
     background-color: #ffffff !important;
 }
+
+.bg-color3 {
+    background-color: #28b6f6 !important;
+}
+
+.letter-space {
+    letter-spacing: 1px;
+}
+
 .fa, .far, .fas {
     font-size: 3rem;
 }
 
+.font-color-blue{
+    color: #28b6f6 !important;
+}
 /* Logo and contact */
 
 @media only screen and (min-width: 768px){
@@ -174,7 +186,7 @@ body {
 }
 
 
-/*Classes*/
+/* Our services */
 
 .classes-container{
     /* background-color: #191a1f; */
