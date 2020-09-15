@@ -1,7 +1,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: #ffffff;
-    color: black;
+    color: #404777;
 }
 
 .bg-color1 {
@@ -15,6 +15,11 @@ body {
 .bg-color3 {
     background-color: #28b6f6 !important;
 }
+.bg-color4 {
+    background-color: #f3f3f3e3 !important;
+}
+
+
 
 .letter-space {
     letter-spacing: 1px;
@@ -69,15 +74,13 @@ body {
 }
 
 .navbar .navbar-toggler {
-    border: 2px solid black;
-    background-color: yellow;
+    border: 2px solid #404777;
+    background-color:  #28b6f6;
     
 }
-.font-black {
-    color: black !important;
-}
-.font-green {
-    color: black;
+
+.hamburger {
+    color: #b6e2f5;
     font-size: 2rem;
     
 }
@@ -104,7 +107,6 @@ body {
 
 .landing-page { 
     height: 85vh;
-
     background: url("../images/10.jpg") no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -118,7 +120,7 @@ body {
 
 
 .quote-landing {
-    color: rgba(12, 14, 17, 0.74);
+    color:  #404777;
     font-weight: bold;
     font-size: 4rem;
 }
