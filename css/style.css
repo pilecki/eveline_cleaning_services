@@ -1,6 +1,6 @@
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: #ffffff;
+    background-color: #f2f2f299;
     color: #404777;
 }
 
@@ -19,7 +19,11 @@ body {
     background-color: #f3f3f3e3 !important;
 }
 
+.bg-color5 {
+    background-color: #f2f2f299 !important;
+}
 
+#f2f2f299
 
 .letter-space {
     letter-spacing: 1px;
