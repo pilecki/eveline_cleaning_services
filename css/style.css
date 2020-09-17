@@ -23,7 +23,7 @@ body {
     background-color: #f2f2f299 !important;
 }
 
-#f2f2f299
+
 
 .letter-space {
     letter-spacing: 1px;
@@ -72,7 +72,6 @@ body {
     margin-bottom: 0;
     border: 0;
     width: 100%;
-    /* background-color: transparent; */
     background-color: #a9bdd4;
 
 }
@@ -89,10 +88,6 @@ body {
     
 }
 
-.navbar .navbar-brand:hover{
-    color:darkgrey;
-}
-
 .navbar .navbar-collapse {
     text-align: left;
 
@@ -102,7 +97,6 @@ body {
     color: #404777; 
     font-weight: bold;
     font-size: 1.5rem;
-    /* font-family: 'Montserrat', sans-serif; */
 }
 
 
@@ -169,87 +163,33 @@ body {
 }
 
 
-/*The Join now*/
+/* Contact */
 
-.container-join-now{
+.container-contact{
     padding-top: 4%;
     padding-bottom: 7%;
     
 }
-.center-form{  
-    margin:0 auto;
-    width: 70%;
-}
-
-@media only screen and (max-width: 767px) {
-  .center-form {
-    margin:0 auto;
-    width: 100%;
-  }
-}
 
 .btn-send {
-    color: #838080;
-    border-color:#191a1f ;
-    background-color: #eaeaea;
+    color: #404777;
+    border-color:#404777 ;
+    background-color:  #f2f2f299;
     border-radius: 8px;
    
 }
 .btn-send:hover{
-    background-color:#191a1f;
-    color:#eaeaea;
+    background-color: #404777;
+    color: #f2f2f299;
 }
 
 
 /* Our services */
 
-.classes-container{
-    /* background-color: #191a1f; */
-    padding-top: 5%;
-    padding-bottom: 5%;
-}
-
 img {
     height: auto;
     width: 100%;
 }
-
-
-@media only screen and (min-width:768px) and (max-width: 1023px){
-    .paragraph-height-mobile1{
-        min-height: 148px;
-    }
-}
-
-@media only screen and (min-width:768px) and (max-width: 1023px){
-    .paragraph-height-mobile2{
-        min-height: 208px;
-    }
-}
-
-@media only screen and (min-width:1024px){
-    .paragraph-height-lg-screen1{
-        min-height: 120px;
-    }
-}
-
-@media only screen and (min-width:1024px){
-    .paragraph-height-lg-screen2{
-        min-height: 148px;
-    }
-}
-.btn-download {
-    color: #838080;
-    border-color:#eaeaea;
-    background-color: transparent;
-    border-radius: 8px;
-    
-}
-
-.btn-download:hover{
-    background-color: #eaeaea;
-}
-
 
 
 /*footer*/
